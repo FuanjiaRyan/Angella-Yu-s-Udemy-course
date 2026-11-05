@@ -9,11 +9,18 @@ import random
 
 # print(states)
 
-friends = ["Paul", "James", "Aqua", "Peter"]
+# friends = ["Paul", "James", "Aqua", "Peter"]
 
-# 1 Option
-print(random.choice(friends))
+# # 1 Option
+# print(random.choice(friends))
 
-# 2 Option
-random_index = random.randint(0, 3)
-print(friends[random_index])
+# # 2 Option
+# random_index = random.randint(0, 3)
+# print(friends[random_index])
+
+fruits = ["Banana", "Apple", "Pear", "Plum", "Guava", "Pawpaw", "Watermelon", "Pinneaple", "Avocado"]
+names = ["Ryan", "Kelvin", "Emmanuel", "Kameni", "Fuanjia"]
+
+combined = [fruits, names]
+
+print(combined)
