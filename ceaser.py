@@ -13,7 +13,6 @@ def ceaser(original_text, shift_amount, encode_or_decode):
         if letter not in alphabet:
             output_text += letter
         else:
-
             shifted_position = alphabet.index(letter) + shift_amount
             shifted_position %= len(alphabet)
             output_text += alphabet[shifted_position]
