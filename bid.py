@@ -1,6 +1,6 @@
 programming_dictionary = {
     "Bug": "An error in a program",
-    "Function": "A piece of code that can be easuly called over and over again",
+    "Function": "A piece of code that can be easily called over and over again",
     }
 
 # print(programming_dictionary["Bug"])
@@ -15,9 +15,10 @@ empty_dictionary = {}
 # print(programming_dictionary)
 
 # Edit an item in a dictionary
-programming_dictionary["Bug"] = "A moth in your compuuter"
+programming_dictionary["Bug"] = "A moth in your computer"
 # print(programming_dictionary)
 
 # loop through a dictionary
-for  thing in programming_dictionary:
-    print(thing)
+for  key in programming_dictionary:
+    print(key)
+    print(programming_dictionary[key])
